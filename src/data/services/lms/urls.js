@@ -21,9 +21,6 @@ export const updateUrl = (base, url) => ((url == null || url.startsWith('http://
 export const baseAppUrl = (url) => updateUrl(getBaseUrl(), url);
 export const learningMfeUrl = (url) => updateUrl(getConfig().LEARNING_BASE_URL, url);
 
-// static view url
-const programsUrl = () => baseAppUrl('/dashboard/programs');
-
 export const creditPurchaseUrl = (courseId) => `${getEcommerceUrl()}/credit/checkout/${courseId}/`;
 export const creditRequestUrl = (providerId) => `${getApiUrl()}/credit/v1/providers/${providerId}/request/`;
 
@@ -37,6 +34,5 @@ export default StrictDict({
   event,
   getInitApiUrl,
   learningMfeUrl,
-  programsUrl,
   updateEmailSettings,
 });
