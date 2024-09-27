@@ -28,7 +28,7 @@ export const courseCard = StrictDict({
   course: mkCardSelector(
     cardSimpleSelectors.course,
     (course) => ({
-      bannerImgSrc: baseAppUrl(course.bannerImgSrc),
+      bannerImgSrc: `https:${course.bannerImgSrc}`,
       courseNumber: course.courseNumber,
       courseName: course.courseName,
       socialShareUrl: course.socialShareUrl,
