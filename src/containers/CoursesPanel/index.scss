@@ -1,4 +1,4 @@
-@import "@openedx/paragon/scss/core/core";
+@use "@openedx/paragon/styles/css/core/custom-media-breakpoints.css" as paragonCustomMediaBreakpoints;
 
 .course-list-heading-container {
   display: flex;
@@ -8,8 +8,8 @@
 }
 
 .course-list-title {
-  font-size: $h2-font-size;
-  margin: map-get($spacers, 3) 0;
+  font-size: var(--pgn-typography-font-size-h2-base);
+  margin: var(--pgn-spacing-spacer-3) 0;
 }
 
 .course-list-loading {
@@ -24,7 +24,7 @@
   align-self: center;
 }
 
-@include media-breakpoint-down(md) {
+@media (--max-pgn-size-breakpoint-md) {
   .course-list-heading-container {
     flex-direction: column-reverse;
     align-items: flex-start;
@@ -36,7 +36,7 @@
   }
 
   .course-list-title {
-    font-size: $h3-font-size;
-    margin: map-get($spacers, 2) 0;
+    font-size: var(--pgn-typography-font-size-h3-base);
+    margin: var(--pgn-spacing-spacer-2) 0;
   }
 }
