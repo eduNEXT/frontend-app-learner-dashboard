@@ -3,6 +3,7 @@
 exports[`UpgradeButton snapshot can upgrade 1`] = `
 <ActionButton
   as="a"
+  className="d-none"
   disabled={false}
   href="upgradeUrl"
   iconBefore={[MockFunction icons.Locked]}
@@ -23,6 +24,7 @@ exports[`UpgradeButton snapshot can upgrade 1`] = `
 
 exports[`UpgradeButton snapshot cannot upgrade 1`] = `
 <ActionButton
+  className="d-none"
   disabled={true}
   iconBefore={[MockFunction icons.Locked]}
   variant="outline-primary"

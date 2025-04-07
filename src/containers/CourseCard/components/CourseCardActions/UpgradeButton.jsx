@@ -34,6 +34,7 @@ export const UpgradeButton = ({ cardId }) => {
       variant="outline-primary"
       disabled={disableUpgradeCourse}
       {...!disableUpgradeCourse && enabledProps}
+      className="d-none"
     >
       {formatMessage(messages.upgrade)}
     </ActionButton>
