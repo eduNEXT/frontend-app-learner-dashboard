@@ -47,6 +47,14 @@ export const ExpandedHeader = () => {
         >
           {formatMessage(messages.discoverNew)}
         </Button>
+        <Button
+          as="a"
+          href="https://edu.utec.edu.uy/about/"
+          variant="inverse-primary"
+          className="p-4"
+        >
+          {formatMessage(messages.aboutUs)}
+        </Button>
         <span className="flex-grow-1" />
         <Button
           as="a"
