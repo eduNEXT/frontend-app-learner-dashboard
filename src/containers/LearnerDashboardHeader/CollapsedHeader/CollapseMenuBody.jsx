@@ -40,6 +40,13 @@ export const CollapseMenuBody = ({ isOpen }) => {
       >
         {formatMessage(messages.discoverNew)}
       </Button>
+      <Button
+        as="a"
+        href="https://edu.utec.edu.uy/about/"
+        variant="inverse-primary"
+      >
+        {formatMessage(messages.aboutUs)}
+      </Button>
       <Button as="a" href={getConfig().SUPPORT_URL} variant="inverse-primary">
         {formatMessage(messages.help)}
       </Button>

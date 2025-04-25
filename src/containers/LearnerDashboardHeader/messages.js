@@ -86,6 +86,11 @@ const messages = defineMessages({
     defaultMessage: 'New',
     description: 'The text announcing that an item in the user menu is New',
   },
+  aboutUs: {
+    id: 'learnerVariantDashboard.aboutUs',
+    defaultMessage: 'About of EDU',
+    description: 'Header link for switching to about us page.',
+  },
 });
 
 export default messages;
