@@ -17,6 +17,7 @@
     "quality": "npm run lint-fix && npm run test",
     "watch-tests": "jest --watch",
     "snapshot": "fedx-scripts jest --updateSnapshot",
+    "dev": "PUBLIC_PATH=/learner-dashboard/ MFE_CONFIG_API_URL='http://localhost:8000/api/mfe_config/v1' fedx-scripts webpack-dev-server --progress --host apps.local.openedx.io",
     "prepare": "husky install"
   },
   "author": "edX",

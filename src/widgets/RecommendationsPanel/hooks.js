@@ -38,7 +38,7 @@ export const useRecommendationPanelData = () => {
   const [data, setData] = module.state.data({});
   module.useFetchCourses(setRequestState, setData);
   const [courses, setCourses] = module.state.courses(data.data?.courses || []);
-  const isControl = data.data?.isControl === undefined ? null : data.data?.isControl;
+  const isControl = data.data?.isControl === undefined ? false : data.data?.isControl;
 
   React.useEffect(() => {
     window.loadMockRecommendations = () => {
