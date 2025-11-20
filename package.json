@@ -31,9 +31,9 @@
   "dependencies": {
     "@edx/brand": "npm:@openedx/brand-openedx@^1.2.2",
     "@edx/frontend-component-footer": "github:edunext/frontend-component-footer#ase/lang-selector",
-    "@edx/frontend-component-header": "github:eduNEXT/frontend-component-header#ase/lang-selector",
+    "@edx/frontend-component-header": "github:edunext/frontend-component-header#ase/lang-selector",
     "@edx/frontend-enterprise-hotjar": "7.2.0",
-    "@edx/frontend-platform": "github:eduNEXT/frontend-platform#ase/lang-selector",
+    "@edx/frontend-platform": "github:edunext/frontend-platform#ase/lang-selector",
     "@edx/openedx-atlas": "^0.7.0",
     "@edx/react-unit-test-utils": "github:edunext/react-unit-test-utils#ase/lang-selector",
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
